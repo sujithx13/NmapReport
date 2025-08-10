@@ -1,0 +1,19 @@
+NMAP INTRODUCTON:
+	Nmap is the powerful and widely usage open-source tool used for scanning network.
+It helps to find out which devices are active,  what ports are open and what services are 
+running on those ports.It is the most comman tool used in cyber security and ethical hacking.In
+Nmap we can check our network security and can able to identify the unknown devices and detect the 
+vurnabilities.
+	There are different types of scan command each command perform the specific operation - like checking
+the open port , services , detecting the operating system.
+	In this project, I used various nmap commmands to findout the,
+	
+	* Which devices are active 
+	* Which ports are open
+	* Which service are running 
+	* And what possible risk are there.
+
+NMAP SCAN COMMANDS:
+	1) ifconfig ( used to find out the ip address )
+	2) sudo nmap -sV <target ip> ( used to find out the version )
+	3) sudo nmap -sS <target ip> ( used to find out the service which are running in the target ip )

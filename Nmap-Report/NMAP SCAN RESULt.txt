@@ -1,0 +1,23 @@
+NMAP SCAN RESULT:
+	TO PERFORM A TCP SYS SCAN ON YOUR LOCAL IP RANGE USNG NMAP. NOTE THE ACTIE HOSTS
+OPEN PORTS , AND SERVICES RUNNING. 
+
+RESULT:
+	 NMAP TCP SYS SCAN REPORT 
+
+SCAN DATE: August 10, 2025
+SCAN COMMAND USED:
+	 - sudo nmap -sS <target ip>
+	 - sudo nmap -sV <target ip>
+TARGET IP ADDRESS:
+	192.168.191.134/24
+DESCRIPTION:
+	This scan was performed to identify live host, open port, and running services within the 
+local network using a TCP SYS scan.
+	* OPEN PORTS- 902/TCP
+		      912/TCP
+		      5357/TCP
+	* STATE - OPEN 
+	* VERSIONS - VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+		    VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+		    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
